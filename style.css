@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: "Work Sans", sans-serif;
+}
+#hero{
+    width:1920px;
+    height:879px;
+    background-image: linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),url(assets/hero-bg.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero .hero_contain{
+    width: 1000px;
+    height: 331px;
+    text-align: center;
+}
+#hero .hero_contain .subtitle{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 16px;
+}
+#hero .hero_contain .title{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+#hero .hero_contain .description{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+#hero .hero_contain .btn{
+    margin: 0 auto;
+}
+.btn button{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+    padding: 21px 32px 21px 32px;
+    cursor:pointer;
+}
+#card-box{
+    width:1920px;
+    margin:167px auto;
+}
+#card-box .info .subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+#card-box .info .title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 16px;
+}
+.card-container{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap:24px;
+    align-items: center;
+    margin-top: 48px;
+}
+.card{
+    width:424px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card .img-info{
+    width:424px;
+}
+.card .img-info img{
+    width:100%;
+}
+.card .span-info{
+    margin-top: 32px;
+    padding: 14px 32px 14px 32px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.card .card-title{
+    margin-top: 20px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.card .card-description{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-top:24px
+}
+.card .btn{
+    margin-top: 64px;
+}
+#about-us{
+    width:1920px;
+}
+#about-us .about-us-container{
+    display: flex;
+}
+#about-us-container .about-us-container .img-section{
+    max-width: 960px;
+}
+#about-us .about-us-container .img-section img{
+    width:100%;
+}
+#about-us .about-us-container .social-section{
+    margin-left: 77px;
+}
+#about-us .about-us-container .social{
+    width:830px;
+    margin-top: 136px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#about-us .about-us-container .social h1{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#about-us .about-us-container .social p{
+    margin-top: 24px;
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+#about-us .about-us-container .social .follow_span{
+    margin-top: 48px;
+    padding: 30px 10px 30px 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    width: 985px;
+}
+#about-us .about-us-container .social .icons{
+    margin-top:32px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: center;
+}
+#about-us .about-us-container .social .fa-facebook{
+    font-size: 30px;
+    color:rgb(0, 137, 255);
+}
+#about-us .about-us-container .social .fa-x-twitter{
+    font-size: 30px;
+    color:black;
+}
+a{
+    text-decoration: none;
+}
+#about-us .about-us-container .social .fa-instagram{
+    color:#fff;
+    font-size: 30px;
+    background: radial-gradient(circle at 30% 110%,
+            #ffdb8b 0%,
+            #ee653d 25%,
+            #d42e81 50%,
+            #a237b6 75%,
+            #3e57bc 100%);
+    box-shadow: 0px 15px 40px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+#about-us .about-us-container .social .fa-pinterest{
+    font-size: 30px;
+    color:rgb(225, 49, 56);
+}
+
+
+
+
+
+
+
+
